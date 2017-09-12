@@ -1,0 +1,25 @@
+{
+  "name": "plain-babel",
+  "version": "1.0.0",
+  "description": "An simple example of plain babel configuration",
+  "scripts": {
+    "transpile": "babel es6.js -o transpiled-es5.js",
+    "start": "node transpiled-es5.js",
+    "clean": "rm transpiled-es5.js && rm -rf node_modules"
+  },
+  "keywords": [],
+  "author": {
+    "name" : "Simone Spaccarotella",
+    "email" : "spa.simone@gmail.com",
+    "url" : "https://uk.linkedin.com/in/simonespaccarotella"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
